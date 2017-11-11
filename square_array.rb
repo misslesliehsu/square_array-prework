@@ -1,4 +1,3 @@
-=begin
 def square_array(array)
   new_array = []
   array.each do |x|
@@ -7,10 +6,4 @@ def square_array(array)
   end
   new_array
 end
-=end
 
-def square_array(array)
-  array.collect do |x|
-    x*x
-  end
-end
